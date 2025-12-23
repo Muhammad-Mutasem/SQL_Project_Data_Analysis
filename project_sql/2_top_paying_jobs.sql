@@ -14,6 +14,7 @@ with top_paying_jobs as (
     job_location = 'Anywhere' AND 
     salary_year_avg is NOT NULL
 
+
     order by salary_year_avg DESC
     LIMIT 10
 )
